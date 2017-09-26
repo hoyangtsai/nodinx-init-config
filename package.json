@@ -1,45 +1,46 @@
 {
-  "name": "egg-init-config",
-  "version": "1.2.0",
-  "description": "egg init boilerplate config",
+  "name": "@tencent/nodinx-init-config",
+  "version": "0.0.1",
+  "description": "nodinx init boilerplate config",
   "files": [
     "index.js"
   ],
   "config": {
     "boilerplate": {
-      "simple": {
-        "package": "egg-boilerplate-simple",
-        "description": "Simple egg app boilerplate"
+      "ui": {
+        "package": "@tencent/nodinx-template-ui",
+        "description": "Pure webrebuild biolerplate"
       },
-      "empty": {
-        "package": "egg-boilerplate-empty",
-        "description": "Empty egg app boilerplate"
+      "comby": {
+        "package": "@tencent/nodinx-template-comby",
+        "description": "Comby component library biolerplate"
       },
-      "plugin": {
-        "package": "egg-boilerplate-plugin",
-        "description": "egg plugin boilerplate"
+      "web": {
+        "package": "@tencent/nodinx-template-web",
+        "description": "Wsrd runion and nodinx biolerplate"
       },
-      "framework": {
-        "package": "egg-boilerplate-framework",
-        "description": "egg framework boilerplate"
+      "zongchuang": {
+        "package": "@tencent/nodinx-template-zongchuang",
+        "description": "Zhongchuang web biolerplate"
       }
     }
   },
-  "homepage": "https://github.com/eggjs/egg-init-config",
+  "homepage": "http://git.code.oa.com/WSRD-Tech-Center-Lib/nodinx-init-config",
   "repository": {
     "type": "git",
-    "url": "https://github.com/eggjs/egg-init-config.git"
+    "url": "http://git.code.oa.com/WSRD-Tech-Center-Lib/nodinx-init-config.git"
   },
   "bugs": {
     "email": "fengmk2@gmail.com",
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "http://git.code.oa.com/WSRD-Tech-Center-Lib/nodinx/issues"
   },
   "keywords": [
-    "egg",
-    "egg-init"
+    "nodinx",
+    "nodinx-cli",
+    "nodx"
   ],
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=6.0.0"
   },
-  "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.com)"
+  "author": "allanyu <allanyu@tencent.com> "
 }
