@@ -1,4 +1,4 @@
-egg-init-config
+nodinx-init-config
 =======
 
-egg init boilerplate config, use by [egg-init](https://npmjs.com/egg-init) only.
+nodinx init boilerplate config, use by [nodx](http://tnpm.oa.com/package/nodinx-cli) only.
