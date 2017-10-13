@@ -1,6 +1,6 @@
 {
   "name": "@tencent/nodinx-init-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "nodinx init boilerplate config",
   "files": [
     "index.js"
@@ -26,6 +26,10 @@
       "mobile": {
         "package": "@tencent/nodinx-template-mobile",
         "description": "Mobile template boilerplate with nodinx & runion"
+      },
+      "meta": {
+        "package": "@tencent/nodinx-template-meta", 
+        "description": "Nodinx template meta template"
       }
     }
   },
