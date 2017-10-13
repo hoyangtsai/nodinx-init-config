@@ -1,6 +1,6 @@
 {
   "name": "@tencent/nodinx-init-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "nodinx init boilerplate config",
   "files": [
     "index.js"
