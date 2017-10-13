@@ -9,19 +9,23 @@
     "boilerplate": {
       "ui": {
         "package": "@tencent/nodinx-template-ui",
-        "description": "Pure webrebuild biolerplate"
+        "description": "Pure webrebuild boilerplate"
       },
       "comby": {
         "package": "@tencent/nodinx-template-comby",
-        "description": "Comby component library biolerplate"
+        "description": "Comby component library boilerplate"
       },
       "web": {
         "package": "@tencent/nodinx-template-web",
-        "description": "Wsrd runion and nodinx biolerplate"
+        "description": "Wsrd runion and nodinx boilerplate"
       },
       "zongchuang": {
         "package": "@tencent/nodinx-template-zongchuang",
-        "description": "Zhongchuang web biolerplate"
+        "description": "Zhongchuang web boilerplate"
+      },
+      "mobile": {
+        "package": "@tencent/nodinx-template-mobile",
+        "description": "Mobile template boilerplate with nodinx & runion"
       }
     }
   },
