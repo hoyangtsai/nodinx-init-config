@@ -1,6 +1,6 @@
 {
   "name": "@tencent/nodinx-init-config",
-  "version": "0.0.3",
+  "version": "1.0.3",
   "description": "nodinx init boilerplate config",
   "files": [
     "index.js"
@@ -30,6 +30,22 @@
       "meta": {
         "package": "@tencent/nodinx-template-meta", 
         "description": "Nodinx template meta template"
+      },
+      "simple": {
+        "package": "@tencent/nodinx-template-simple",
+        "description": "Simple nodinx app boilerplate"
+      },
+      "empty": {
+        "package": "@tencent/nodinx-template-empty",
+        "description": "Empty nodinx app boilerplate"
+      },
+      "plugin": {
+        "package": "@tencent/nodinx-template-plugin",
+        "description": "Nodinx plugin boilerplate"
+      },
+      "framework": {
+        "package": "@tencent/nodinx-template-framework",
+        "description": "Nodinx framework boilerplate"
       }
     }
   },
